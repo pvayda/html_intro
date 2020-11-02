@@ -6,13 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <label for="first_name">First Name: </label>
-        <input type="text" name="first_name"> <br>
-        <label for="last_name">Last Name: </label>
-        <input type="text" name = "last_name"> <br>
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="">
-    </form>
+    <fieldset>
+        <form action="">
+            <label for="first_name">First Name: </label>
+            <input type="text" id="first_name"> <br>
+            <label for="last_name">Last Name: </label>
+            <input type="text" id = "last_name"> <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email"><br>
+
+            <p>What is your favorite thanksgiving food? </p>
+            <label for="fav-thanksgiving-food">Turkey</label>
+            <input type="radio" id="turkey" value = "turkey"> <br>
+            <label for="fav-thanksgiving-food">Mashed Potatoes</label>
+            <input type="radio" id="mashed potatoes" value="mashed potatoes"><br>
+            <label for="fav-thanksgiving-food" id= "cranberry sauce" value= "cranberry sauce">Cranberry Sauce</label>
+            <input type="radio" id= "cranberry sauce" value= "cranberry sauce"> <br>
+            <label for="fav-thanksgiving-food">Veggies</label>
+            <input type="radio" id = 'veggies' value= "veggies"><br>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+    
 </body>
 </html>
